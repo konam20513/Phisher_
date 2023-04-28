@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Phisher",
+  "version": "1.0",
+  "description": "An extension which checks for malicious links in emails",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "permissions": [
+    "activeTab", 
+    "storage",
+    "tabs",
+    "identity",
+    "webRequest",
+    "scripting"
+  ],
+  "oauth2": {
+    "client_id": "334753692866-p7s6vmdij7ofma6rcj8kes7deie2ig4m.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly"
+    ]
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [ "http://akhilo0o.pythonanywhere.com/*" ],
+      "matches":["chrome-extension://ekdkdcknogcieleaaalbcljgacmpnemk/*"]
+    }
+  ],
+  "host_permissions": [ "http://akhilo0o.pythonanywhere.com/*"]
+}
