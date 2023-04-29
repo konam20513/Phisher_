@@ -7,7 +7,7 @@ Installation:<br />
 The steps to be followed to install the Phisher are : <br />
 Open Any Browser (Recommended Google Chrome, Firefox, or Brave)<br />
 Download the Zip folder from the above link.<br />
-Extract the folder Phisher.<br />
+Extract the folder phish.<br />
 Open the respective browser.<br />
 Go to manage extensions.<br />
 Turn on the developer mode.<br />
