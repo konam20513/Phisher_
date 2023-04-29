@@ -15,4 +15,6 @@ Click on "Load unpacked."<br />
 Choose the extracted folder Phisher.<br />
 Now, the Extension is loaded on your respective browser, which you will see in the Extensions Bar.<br />
 
-Note: Make sure the folder has been extracted, please. Create a folder and place all the required code files if it doesn't work.<br />
+Note:<br />
+Initial model loading takes 30 seconds to 1 minute.<br />
+Make sure the folder has been extracted, please. Create a folder and place all the required code files if it doesn't work.<br />
