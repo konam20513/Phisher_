@@ -26,7 +26,7 @@ async function query(data) {
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/Akhil0-o/saved_model_body",
 		{
-			headers: { Authorization: "Bearer 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" },
+			headers: { Authorization: "Bearer XXXXXXXXXX" },
 			method: "POST",
 			body: JSON.stringify(data),
 		}
